@@ -7,6 +7,7 @@ email:
 homepage:
   url: ygs4243@gmail.com
   text: ygs4243@gmail.com
+phone: 18628174243
 ---
 
 # 阳广穗
