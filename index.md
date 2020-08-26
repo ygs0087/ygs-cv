@@ -4,9 +4,6 @@ title: Alex
 email:
   url: mailto:ygs4243@gmail.com
   text: ygs4243@gmail.com
-homepage:
-  url: ygs4243@gmail.com
-  text: ygs4243@gmail.com
 phone: 18628174243
 ---
 
@@ -118,7 +115,7 @@ ACM校内赛二等奖 `成都电子科技大学, 2011.11` <br>**IGEM**校内竞�
 ### 其他：
 
 - 熟悉Python语言，能使用Python进行简单数据分析和网络爬虫，以及数据迁移脚本开发
-- 了解网络HTTP/TCP协议`
+- 了解网络HTTP/TCP协议
 
 <!-- ### Footer
 
