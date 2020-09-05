@@ -155,9 +155,9 @@ em {
 
 h1 {
   font-family: "Avenir Next", sans-serif;
-  text-align: center;
+  text-align: left;
   /* font-size: 50pt; */
-  font-size: 600%;
+  font-size: 500%;
   font-weight: lighter;
   position: relative;
   line-height: 1.2em;
@@ -206,7 +206,7 @@ code {
 }
 
 li:before {
-  content: "-";
+  content: "•";
   position: relative;
   left: -0.5em;
 }
@@ -219,7 +219,7 @@ li {
 }
 
 #contact-info {
-  text-align: center;
+  text-align: left;
   position: relative;
   font-weight: lighter;
   color: #ccc;
