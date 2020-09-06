@@ -219,8 +219,9 @@ li {
 }
 
 #contact-info {
-  text-align: left;
+  /* text-align: left; */
   position: relative;
+  float: left;
   font-weight: lighter;
   color: #ccc;
   /* font-family: Menlo,monospace,sans-serif; */
@@ -239,4 +240,9 @@ a {
 hr {
   visibility: hidden;
   height: 0mm;
+}
+
+#cv-photo {
+  float: right;
+  margin: 5px;
 }

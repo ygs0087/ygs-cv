@@ -1,4 +1,7 @@
+
 <div id="contact-info">
+
+    <h1 style="color: rgb(56, 55, 55);font-family:'Avenir Next', sans-serif;font-weight: normal;font-size: 400%;">阳广穗</h1>
 
     {% if page.homepage %}
     <i class="fi-home" style="margin-left:1em"></i>
@@ -7,12 +10,20 @@
 
     {% if page.email %}
     <i class="fi-mail" style="margin-left:1em"></i>
-    <a href="{{ page.email.url }}" style="margin-left:0.5em">{{ page.email.text }}</a>
+    <a href="{{ page.email.url }}" style="margin-left:0.5em">{{ page.email.text }}<br></a>
     {% endif %}
 
     {% if page.phone %}
     <i class="fi-telephone" style="margin-left:1em"></i>
-    {{ page.phone }}
+    <a style="margin-left:0.5em;color: #000;">{{ page.phone }}</a>
+    {% endif %}
+
+</div>
+
+<div id="cv-photo">
+
+    {% if page.photo %}
+    <img src="{{ page.photo }}" height="200">
     {% endif %}
 
 </div>
